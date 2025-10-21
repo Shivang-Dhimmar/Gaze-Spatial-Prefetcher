@@ -1,5 +1,5 @@
 {
-    "executable_name": "champsim",
+    "executable_name": "champsim_gaze_ipcp_l1",
     "block_size": 64,
     "page_size": 4096,
     "heartbeat_frequency": 10000000,
@@ -63,7 +63,7 @@
         "prefetch_as_load": false,
         "virtual_prefetch": false,
         "prefetch_activate": "LOAD,PREFETCH",
-        "prefetcher": "dspatch"
+        "prefetcher": ["gaze", "ipcp_l1"]
     },
     "L2C": {
         "sets": 1024,
