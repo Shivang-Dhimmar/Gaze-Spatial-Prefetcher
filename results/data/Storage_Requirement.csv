@@ -1,0 +1,12 @@
+Prefetcher,Storage Requirement(KB)
+ipcp_l1,0.72
+vberti,2.55
+dspatch,3.6
+pmp,4.3
+gaze,4.46
+gaze_ipcp_l1,5.18
+gaze_vberti,7.01
+gaze_dspatch,8.06
+gaze_pmp,8.76
+bingo,119
+gaze_bingo,123.46
